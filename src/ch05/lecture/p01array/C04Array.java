@@ -15,5 +15,7 @@ public class C04Array {
 		System.out.println(arr3.length);
 
 		System.out.println(arr[arr.length-1]);
+		System.out.println(arr[arr.length-2]);
+		System.out.println(arr[arr.length-3]);
 	}
 }
