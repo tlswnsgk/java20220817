@@ -1,5 +1,7 @@
 package ch15.book.exercise.p8;
 
+
+
 public class Student {
 	public int studentNum;
 	public String name;
@@ -32,5 +34,4 @@ public class Student {
 			return false;
 		return true;
 	}
-
 }
