@@ -25,7 +25,7 @@ public class C01List {
 		// IndexOutOfBoundsException 주의
 //		System.out.println(list1.get(3)); //x
 		
-		//size : list의 길이( 아이템의 객수)
+		//size : list의 길이( 아이템의 개수)
 		int len = list1.size();
 		System.out.println(len);
 		

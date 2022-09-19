@@ -32,6 +32,7 @@ public class C02List {
 		list1.set(0, "jsp");
 		list2.set(0, "jsp");
 //		list3.set(0, "jsp"); xx
+		System.out.println();
 		
 		System.out.println(list1);
 		System.out.println(list2);
