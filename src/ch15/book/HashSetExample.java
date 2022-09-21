@@ -15,35 +15,27 @@ public class HashSetExample {
 		set.add("iBATIS");
 		
 		int size = set.size();
-		System.out.println("총 객체수:"+size);
+		System.out.println("총 객체수 : "+size);
 		
 		Iterator<String> iterator = set.iterator();
 		while(iterator.hasNext()) {
 			String element = iterator.next();
 			System.out.println("\t"+element);
 		}
-		set.remove("JDBC");
-		set.remove("iBATIS");
-		
-		System.out.println("총 객체수:"+set.size());
-		
-		iterator= set.iterator();
-		while(iterator.hasNext()) {
-			String element = iterator.next();
-			System.out.println("\t"+element);
-		}
-		
-//		향상된 for문
-		for(String element : set) {
-			System.out.println(element);
-		}
-		//forEach
-		set.forEach((e) -> System.out.println(e));
-		
-		set.clear();
-		if(set.isEmpty()) {
-			System.out.println("비어 있음");
-		}
-		
+			
+			set.remove("JDBC");
+			set.remove("iBATIS");
+			
+			System.out.println("총 객체수:"+ set.size());
+			
+			iterator = set.iterator();
+			while(iterator.hasNext()) {
+				String element1 = iterator.next();
+				System.out.println("\t"+element1);
+				
+			}
+			set.clear();
+			if(set.isEmpty()) {System.out.println("비어 있음");		}
 	}
-}
+	}
+

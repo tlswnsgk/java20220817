@@ -27,6 +27,6 @@ public class C02Set {
 		}
 		
 		System.out.println("forEach 메소드 사용");
-		set.forEach((e) -> System.out.println(e));
+		set.forEach((a) -> System.out.println(a));
 	}
 }
