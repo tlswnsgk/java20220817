@@ -12,5 +12,12 @@ public class C07Comparable {
 		set.add("JAVA");
 		
 		System.out.println(set);
+		
+		TreeSet<Integer> set1 = new TreeSet<>();
+		set1.add(1);
+		set1.add(2);
+		set1.add(3);
+		
+		System.out.println(set1);
 	}
 }
